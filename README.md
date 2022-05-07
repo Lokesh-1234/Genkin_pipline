@@ -1,2 +1,2 @@
 # Jenkin_pipline
-# the repository will be used for CI/CD pipeline
+# The repository will be used for CI/CD pipeline
