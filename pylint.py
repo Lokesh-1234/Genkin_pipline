@@ -2,7 +2,7 @@
 import string
 
 SHIFT = 3
-CHOICE = input("would you like to encode or decode")
+CHOICE = input("would you like to ENCODE or DECODE")
 WORD = input("Please enter text")
 LETTERS = string.ascii_letters + string.punctuation + string.digits
 ENCODED = ''
@@ -13,7 +13,7 @@ if CHOICE == "ENCODE":
         else:
             x = LETTERS.index(letter) + SHIFT
             ENCODED = ENCODED + LETTERS[x]
-if CHOICE == "decode":
+if CHOICE == "DECODE":
     for letter in WORD:
         if letter == ' ':
             ENCODED = ENCODED + ' '
