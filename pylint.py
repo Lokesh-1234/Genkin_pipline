@@ -3,10 +3,6 @@ import string
 
 SHIFT = 3
 CHOICE = input("would you like to encode or decode")
-try:
-    input("Please enter something")
-except:
-    print("EOF")
 WORD = input("Please enter text")
 LETTERS = string.ascii_letters + string.punctuation + string.digits
 ENCODED = ''
