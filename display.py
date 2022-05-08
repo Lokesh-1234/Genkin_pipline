@@ -4,4 +4,4 @@ print(res_list)
 
 list_2=[100,200,300,400,500]
 res_list1=[x*0.1 for x in list_2]
-print(*the list is completed")
+print("the list is completed")
