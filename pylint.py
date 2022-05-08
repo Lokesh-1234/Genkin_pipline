@@ -20,5 +20,4 @@ if CHOICE == "decode":
         else:
             x = LETTERS.index(letter) - SHIFT
             ENCODED = ENCODED + LETTERS[x]
-
 print(ENCODED)
